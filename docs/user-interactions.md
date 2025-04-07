@@ -5,7 +5,7 @@
 > This page introduces the user interactions supported by FlowForge.
 
 <div style="text-align: center;">
-  <img src="./assets/interface.png" width="800px" style="border: 1px solid black;">
+  <img src="./docs/assets/interface.png" width="800px" style="border: 1px solid black;">
 </div>
 
 FlowForge provides an interactive environment for designing and exploring multi-agent workflows. Each labeled section of the interface (A, B1, B2, C1, C2, and C3) corresponds to a key feature in the workflow creation process.

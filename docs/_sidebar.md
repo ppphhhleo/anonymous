@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
 
 - [Home](/)
-- [Quick Start](quick-start.md)
-- [Interact with FlowForge](user-interactions.md)
+- [Quick Start](/docs/quick-start.md)
+- [Interact with FlowForge](/docs/user-interactions.md)
