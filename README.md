@@ -1,54 +1,20 @@
-# React + TypeScript + Vite
+<!-- docs/README.md -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# FlowForge
 
-Currently, two official plugins are available:
+FlowForge is an interactive visualization system designed to simplify and enhance the creation of multi-agent workflows. In multi-agent workflow development, practitioners face a vast and intricate design space with complex trade-offs, where current practices rely heavily on intuition and expertise as solutions. This unstructured exploration can lead to design fixation or an unstructured, time-consuming exploration of trial-and-error.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To address these issues, FlowForge structures the workflow design process into three hierarchical levels (task planning, agent assignment, and agent optimization). This layered approach helps practitioners transition smoothly from high-level workflow concepts to concrete implementations, ensuring transparency and control at each stage. Additionally, FlowForge provides in-situ suggestions derived from well-established design patterns in multi-agent research. These actionable recommendations guide users toward more effective solutions, reducing the burden of manually synthesizing best practices.
 
-## Expanding the ESLint configuration
+In contrast to fully automated multi-agent solutions that often generate opaque or suboptimal workflows, FlowForge offers:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Structured Exploration**: A visually organized hierarchy and performance-based comparison, enabling users to seamlessly move from high-level planning to detailed design decisions and implementations while comparing alternative solutions across multiple performance metrics.
+- **Context-Aware Guidance**: Context-aware in-situ suggestions are provided at each level as users navigate the design space, enhancing the workflow creation process with practical guidance.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<div style="text-align: center;">
+  <img src="./assets/teaser.png" width="800px" style="border: 1px solid black;">
+</div>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+<b>FlowForge facilitates the creation of multi-agent workflows through structured, guided visual exploration of the design space.</b> This is achieved by coordinating a hierarchical tree view (A1) and a scatter plot (A2), both of which use a novel glyph design to represent each workflow’s computational cost and level of abstraction. Users can select a workflow for detailed inspection in the Canvas View (B1-B3), which supports semantic zooming that reveals more abstract representations and greater detail based on zoom level. Additionally, in-situ suggestions based on well-established design patterns are provided to guide users as they navigate the design space (C1-C3).
