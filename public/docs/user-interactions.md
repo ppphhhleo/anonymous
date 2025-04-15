@@ -1,8 +1,8 @@
 <!-- docs/user-interactions.md -->
 
-# Interact with FlowForge
+# Interact with [FlowForge](https://vis-flow-forge-demo.vercel.app)
 
-> This page introduces the user interactions supported by FlowForge.
+> Click the link above to interact with the demo. This page introduces the user interactions supported by FlowForge.
 
 <div style="text-align: center;">
   <img src="./assets/interface.png" width="800px" style="border: 1px solid black;">
