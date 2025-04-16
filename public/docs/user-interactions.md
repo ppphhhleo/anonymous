@@ -1,6 +1,6 @@
 <!-- docs/user-interactions.md -->
 
-# Interact with  [FlowForge](https://vis-flow-forge-demo.vercel.app)
+# [Interact with FlowForge](https://vis-flow-forge-demo.vercel.app) 
 
 > Click the link above to interact with the demo. This page introduces the user interactions supported by FlowForge.
 

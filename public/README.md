@@ -2,7 +2,7 @@
 
 # FlowForge
 
-## 👋 Play with [FlowForge](https://vis-flow-forge-demo.vercel.app) 
+## 👋 [Play with FlowForge](https://vis-flow-forge-demo.vercel.app) 
 
 FlowForge is an interactive visualization system designed to simplify and enhance the creation of multi-agent workflows. In multi-agent workflow development, practitioners face a vast and intricate design space with complex trade-offs, where current practices rely heavily on intuition and expertise as solutions. This unstructured exploration can lead to design fixation or an unstructured, time-consuming exploration of trial-and-error.
 
