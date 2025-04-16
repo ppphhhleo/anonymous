@@ -2,6 +2,8 @@
 
 # FlowForge
 
+## 👋 Play with [FlowForge](https://vis-flow-forge-demo.vercel.app) 
+
 FlowForge is an interactive visualization system designed to simplify and enhance the creation of multi-agent workflows. In multi-agent workflow development, practitioners face a vast and intricate design space with complex trade-offs, where current practices rely heavily on intuition and expertise as solutions. This unstructured exploration can lead to design fixation or an unstructured, time-consuming exploration of trial-and-error.
 
 To address these issues, FlowForge structures the workflow design process into three hierarchical levels (task planning, agent assignment, and agent optimization). This layered approach helps practitioners transition smoothly from high-level workflow concepts to concrete implementations, ensuring transparency and control at each stage. Additionally, FlowForge provides in-situ suggestions derived from well-established design patterns in multi-agent research. These actionable recommendations guide users toward more effective solutions, reducing the burden of manually synthesizing best practices.
